@@ -1,0 +1,11 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master/global_mp.master" AutoEventWireup="true" CodeFile="web_mp.master.cs" Inherits="master_web_mp" %>
+
+<asp:Content ID="cnt_toheadglobalmp" ContentPlaceHolderID="tohead_globalmp" Runat="Server">
+	<asp:ContentPlaceHolder id="tohead_web" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="cnt_tobodyglobalmp" ContentPlaceHolderID="tobody_globalmp" Runat="Server">
+	<asp:ContentPlaceHolder id="tobody_web" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
